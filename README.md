@@ -1,2 +1,2 @@
 # MyfirstcoupDetate
-A DH nalyses of  John Dramani Mahama's My first coup Detate
+A DH analyses of John Dramani Mahama's My first coup Detate
