@@ -1,31 +1,54 @@
 <!DOCTYPE html>
-
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
 }
 
- #nav ul {
-display: inline-block;
-list-style-type: none;
-  padding: 15px;
-  background-color: #dddddd;
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
 }
 </style>
-</head>
 <body>
-                            
-<li> <a href="index.html">HOME</a></li>
- <li> <a href="CONTACT.html">CONTACT</a></li>
-  <li> <a href="THEMES.html">THEMES</a></li>
-     <li> <a href="TWINE.html">TWINE</a></li>
-     <li> <a href="PEOPLE& PLACES.html">PEOPLE &PLACES</a></li>
-     <li> <a href="ABOUT.html">ABOUT</a></li>
-                          </ul>
-                             </div>
-                            
+
+<h2>Responsive Navigation Bar with Icons</h2>
+<p>Try to resize the browser window to see the responsive effect.</p>
+
+<div class="navbar">
+  <a class="active" href="#"><i class="fa fa-fw fa-Home"></i> Index</a> 
+  <a href="#"><i class="fa fa-fw fa-Search"></i> Contact</a> 
+  <a href="#"><i class="fa fa-fw fa-society"></i> Peope & Places</a> 
+  <a href="#"><i class="fa fa-fw fa-user"></i> Themes</a>
+   <a href="#"><i class="fa fa-fw fa-user"></i> Twine</a>
+   <a href="#"><i class="fa fa-fw fa-user"></i> About</a>
+   
+</div>
+
+</body>
+</html> 
 
